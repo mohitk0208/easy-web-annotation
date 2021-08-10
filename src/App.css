@@ -1,3 +1,24 @@
-.App {
+.app-container {
   text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.switch-box {
+  height: 10em;
+  width: 10em;
+  border-radius: 20px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.switch-box.editor-mode {
+  background-color: hsl(120, 63%, 61%);
+}
+
+.switch-box.reader-mode {
+  background-color: hsl(0, 90%, 60%);
+}
+
+.current-state {
+  font-size: 1.3rem;
 }
